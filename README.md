@@ -52,24 +52,35 @@ Always open to any comments
 
 
 ```css
-.body {
-	background-color: hsl(212, 45%, 89%);
-	font-size: 15px;
-	font-family: 'Outfit', sans-serif;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin: 4rem;
+body{
+  background-color: var(--lightGray);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card {
-	background-color: hsl(0, 0%, 100%);
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-	border-radius: 0.625rem;
-	width: 200px;
-	padding: 0.9rem;
-	margin-bottom: 1rem;
+.card{
+  background-color: var(--WhiteColor);
+  padding: 18px;
+  border-radius: 15px;
+  width: 320px;
+}
+
+.card-body{
+  padding: 20px 15px ;
+  text-align: center;
+}
+.card-body h4{
+  color: var(--darkBlue);
+  font-size: 22px;
+}
+.card-body p{
+  color: var(--grayisBlue);
+  font-size: 15px;
 }
 
 ```
