@@ -32,7 +32,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: (https://shahriartbc.github.io/QR-code-component-challenge)
+- Solution URL: (https://shahriartbc.github.io/QR_Code_Component_Challenge/)
 
 
 ## My process
